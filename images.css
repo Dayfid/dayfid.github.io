@@ -1,0 +1,15 @@
+.xcxdiv {
+	display: flex;
+	align-content: row;
+	flex-wrap: wrap;
+}
+
+#xcx {
+	padding: 5px;
+	background-color: gray;
+	transition: all 1s;
+}
+
+#xcx:hover {
+	transform: scale(1.1);
+}

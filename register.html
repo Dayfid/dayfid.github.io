@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>David * Registration</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="register.css">
+</head>
+	<img src="imgs/header.png" class="header">
+	<nav>
+			<a href="index.html">Home</a> |
+			<a href="images.html">Images</a> |
+			<a href="about.html">About</a><br>
+			<a href="register.html">Register</a> |
+			<a href="login.html">Login</a>
+	</nav>
+<body>
+	<div class="register">
+	<form method="GET">
+		First Name: <span style="color:red">*</span><br><input type="text" name="fname" required><br>
+		Last Name: <span style="color:red">*</span><br><input type="text" name="lname" required><br>
+		<hr>Email: <span style="color:red">*</span><br><input type="email" required name="email"><br>
+		Password: <span style="color:red">*</span><br><input type="password" required name="password" minlength=1><br>
+		Birthday: <span style="color:red">*</span><br><input type="date" name="birthday" required><br>
+		Gender: <span style="color:red">*</span><br>
+		<input type="radio" name="gender" value="male"> Male <input type="radio" name="gender" value="female"> Female <input type="radio" name="gender" value="other"> Other<br><br>
+		Would you like to recieve email updates? <span style="color:red">*</span><br>
+		<select name="updates">
+			<option value="Yes" name="yes">Yes</option>
+			<option value="No" name="no">No</option>
+		</select>
+			<br><br><input type="submit" value="Register">
+	</form>
+</div>
+</body>
+</html>

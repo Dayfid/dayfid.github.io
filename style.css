@@ -1,0 +1,27 @@
+/*Selector {
+	Property: value;
+}*/
+
+* {
+	background-color: #033200;
+	color: #109709;
+	font-family: arial,sans-serif;
+/*	border: 4px solid;*/
+}
+
+.header {
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+body {
+	margin: 0px;
+}
+
+nav {
+	text-align: center;
+	border: 4px solid;
+	float: right;
+	padding: 5px;
+}
